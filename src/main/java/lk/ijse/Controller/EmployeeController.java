@@ -202,4 +202,5 @@ public class EmployeeController {
         root.getChildren().clear();
         root.getChildren().add(FXMLLoader.load(getClass().getResource("/view/salary_form.fxml")));
     }
+
 }
